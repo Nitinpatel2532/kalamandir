@@ -1,0 +1,84 @@
+@mixin btn(){
+    color: white;
+    border-style: none;
+    padding: 5px;
+    background: #00000000;
+    font-family: fantasy;
+    letter-spacing: 1px;
+
+}
+@mixin ch(){
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px;
+    padding-left: 10px;
+    line-height: 40px;
+    color: white;
+    transition: all 1s linear;
+
+}
+.hero2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    // padding: 40px;
+    row-gap: 10px;
+    margin-top: 30px;
+    
+}
+.ch1{
+    background-image: url(s2.webp);
+    @include ch();
+   
+
+    button{
+            @include btn();
+    }
+    button:hover{
+        color: black;
+        cursor: pointer;
+    }
+}
+.ch1:hover{
+    box-shadow:2px 2px 5px 1px black ;
+    padding: 95px;
+    padding-left: 12px;
+   
+}
+.ch2{
+    background-image: url(s5.webp);
+    @include ch();
+
+    button{
+        @include btn();
+    }
+    button:hover{
+        color: black;
+        cursor: pointer;
+    }
+   
+}
+.ch2:hover{
+    box-shadow:2px 2px 5px 1px black ;
+    padding: 95px;
+    padding-left: 12px;
+   
+}
+.ch3{
+    background-image: url(s6.webp);
+    @include ch();
+
+    button{
+        @include btn();
+    }
+    button:hover{
+        color: black;
+        cursor: pointer;
+    }
+}
+.ch3:hover{
+    box-shadow:2px 2px 5px 1px black ;
+    padding: 95px;
+    padding-left: 12px;
+   
+}

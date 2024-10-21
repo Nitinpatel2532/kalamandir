@@ -1,0 +1,46 @@
+.hero1 {
+    margin: 5px;
+    background-image: url(sa2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px;
+    // flex-wrap: wrap;
+    font-size: 30px;
+    color: goldenrod;
+    padding-left: 30px;
+    line-break: strict;
+    flex-wrap: wrap;
+    text-shadow: 2px 1px 1px white;
+
+    h1{
+        animation-name: h1anim;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+}
+@media screen and (max-width:650px){
+    .hero1{
+        padding:50px;
+        font-size: 15px;
+
+    }
+  
+}
+@keyframes h1anim {
+    0%{
+       color: red;
+
+    }
+    30%{
+       
+        color:yellowgreen;
+    }
+    60%{
+        color: gray;
+    }
+    100%{
+        color: cornflowerblue;
+    }
+    
+}

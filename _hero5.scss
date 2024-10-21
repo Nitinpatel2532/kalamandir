@@ -1,0 +1,31 @@
+.hero5{
+    text-align: center;
+    line-break: strict;
+    margin: 15px;
+    .hero5_1{
+        display: flex;
+        justify-content:space-around;
+        // gap: 20px;
+        row-gap: 30px;
+        margin: 15px;
+        flex-wrap:wrap;
+
+        .hero5in img{
+            width: 220px;
+            height: 300px;
+            border-radius: 10px;
+        }
+        a{
+            color: black;
+            text-decoration-style: none;
+            text-decoration-line: none;
+        }
+        img:hover{
+            box-shadow: 1px 1px 5px 1px black;
+          }
+        a:hover{
+            color: red;
+            text-decoration-line: underline;
+        }
+    }
+}

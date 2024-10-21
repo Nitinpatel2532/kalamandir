@@ -1,0 +1,47 @@
+.hero4{
+    background-image: url(sar1.jpg);
+    background-repeat: no-repeat;
+    // width: 100%;
+    background-size: cover;
+    padding: 200px;
+    margin: 50px;
+    position: relative;
+    padding-right: 10px;
+    padding-bottom:10px;
+    line-break: strict;
+   
+
+    
+}
+    .hero4_1{
+        h3{
+            text-decoration: underline;
+        }
+        border-radius: 15px;
+        text-align: center;
+        padding: 10px;
+        
+        line-height: 25px;
+        right: 1px;
+        background-color: rgba(255, 255, 255, 0.643);
+
+        button{
+            border-style: none;
+            background-color: #ffffff00;
+            color: white;
+            font-size: 20px;
+        }
+        button:hover{
+            color: black;
+            background-color: white;
+            padding: 4px;
+        } 
+    }
+
+    @media  screen and (max-width:650px) {
+        .hero4{
+            // width: 100%;
+            padding: 50px;
+            
+        }
+    }

@@ -1,0 +1,65 @@
+.hero6{
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    // margin: 15px;
+    margin-top: 60px;
+    // padding: 5px;
+    flex-wrap: wrap;
+    row-gap:5px;
+
+    .hero6_1{
+        width: 450px;
+        display: flex;
+        background-color: whitesmoke;
+        // border: 1px solid black;q
+        // flex-wrap: wrap;
+
+        .hero6_1img img{
+            width: 300px;
+            height: 200px;
+            background-size: cover;
+        }
+        .hero6_1con{
+            // text-align: center;
+            align-items: center;
+            font-size: 12px;
+            padding: 10px;
+            padding-top: 20px;
+            // background-color:aliceblue;
+            line-height: 25px;
+        }
+    }
+    .hero6_2{
+        width: 450px;
+        display: flex;
+       background-color: whitesmoke;
+        // border: 1px solid black;
+
+        .hero6_2img img{
+            width: 300px;
+            height: 200px;
+        }
+        .hero6_2con{
+            // text-align: center;
+            align-items: center;
+            padding: 12px;
+            font-size: 12px;
+            
+            // background-color: whitesmoke;
+            line-height: 30px;
+
+            
+        }
+    }
+    button{
+        padding: 5px;
+        border-radius: 5px;
+        border-style: none;
+        cursor: pointer;
+        color: red;
+    }
+    button:hover{
+        color: black;
+    }
+}
