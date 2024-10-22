@@ -370,7 +370,7 @@ body {
 .firstnav ul {
   display: flex;
   list-style: none;
-  gap: 30px;
+  gap: 15px;
 }
 .firstnav ul a:hover {
   color: blue;
