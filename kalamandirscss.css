@@ -291,6 +291,22 @@
 .hero6 button:hover {
   color: black;
 }
+.lastnav{
+    background-color: white;
+    position:fixed;
+    bottom: 1px;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.lastnav ul{
+   display: flex;
+        justify-content:space-around;
+       
+        list-style: none;
+        padding: 15px;
+}
 
 body {
   font-family: Arial, sans-serif;
