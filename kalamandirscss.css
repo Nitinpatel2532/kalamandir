@@ -243,44 +243,52 @@
 
 .hero6 {
   display: flex;
-  justify-content: center;
-  gap: 50px;
-  margin-top: 60px;
-  flex-wrap: wrap;
-  row-gap: 5px;
+    justify-content:space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    row-gap:5px;
 }
 .hero6 .hero6_1 {
-  width: 450px;
-  display: flex;
-  background-color: whitesmoke;
+ display: flex;
+        background-color: whitesmoke;
+        transition: all 1s linear;
 }
 .hero6 .hero6_1 .hero6_1img img {
-  width: 300px;
-  height: 200px;
-  background-size: cover;
+ width: 250px;
+            height: 200px;
+            background-size: cover;
 }
 .hero6 .hero6_1 .hero6_1con {
-  align-items: center;
-  font-size: 12px;
-  padding: 10px;
-  padding-top: 20px;
-  line-height: 25px;
+  text-align: center;
+            align-items: center;
+            font-size: 12px;
+            padding: 10px;
+            padding-top: 40px;
+            line-height: 25px;
 }
+.hero6 .hero6_1:hover{
+        box-shadow: 1px 1px 5px 2px black;
+    }
 .hero6 .hero6_2 {
-  width: 450px;
-  display: flex;
-  background-color: whitesmoke;
+  transition: all 1s linear;
+        display: flex;
+       background-color: whitesmoke;
 }
 .hero6 .hero6_2 .hero6_2img img {
-  width: 300px;
+  width: 250px;
   height: 200px;
 }
 .hero6 .hero6_2 .hero6_2con {
-  align-items: center;
-  padding: 12px;
-  font-size: 12px;
-  line-height: 30px;
+  text-align: center;
+            align-items: center;
+            padding: 12px;
+            padding-top: 40px;
+            font-size: 12px;
+            line-height: 30px;
 }
+.hero6 .hero6_2:hover{
+        box-shadow: 1px 1px 5px 2px black;
+    }
 .hero6 button {
   padding: 5px;
   border-radius: 5px;
